@@ -3,7 +3,7 @@ import styles from "./SkillBlockConstructor.module.css"
 
 
 type PropsType = {
-    img: string | undefined;
+    img: string | undefined   ;
     description: string;
     title: string;
     alt: string
@@ -12,10 +12,10 @@ type PropsType = {
 
 export const SkillBlockConstructor: React.FC<PropsType> = (props) => {
     return (
-    
             <div className={styles.SkillsBlock}>
                 <div>
-                    <img className={styles.Img} src={props.img} alt={props.alt} />
+                    <img className={styles.Img} 
+                    src={ props.img   } alt={props.alt} />
                 </div>
                 <div className={styles.Title}>
                     <h2> {props.title}</h2>
@@ -24,6 +24,5 @@ export const SkillBlockConstructor: React.FC<PropsType> = (props) => {
                     <h5>{props.description}</h5>
                 </div>
             </div>
-     
     )
 }
