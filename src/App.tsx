@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Header } from './header/Header';
 import { Main } from './main/Main';
+import { Skills } from './main/skills/Skills';
 
 
 const App =() => {
@@ -9,6 +10,7 @@ const App =() => {
     <div>
       <Header />
       <Main />
+      <Skills/>
     </div>
   );
 }

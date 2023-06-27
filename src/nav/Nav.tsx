@@ -10,7 +10,7 @@ export const Nav: React.FC<PropsType> = (props) => {
         <div className={styles.Nav}>
 <a href="Home">Home</a>
 <a href="About">About</a>
-<a href="Skills">Skills</a>
+<a href="Skill">Skills</a>
 <a href="Contacts">Contacts</a>
         </div>
     )
