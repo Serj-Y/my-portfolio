@@ -1,10 +1,14 @@
 import React from "react";
 import styles from "./Skills.module.css"
 import stylesContainer from "../../common/styles/Container.module.css"
-import ReactLogo from "../../common/assets/image/react.gif"
-import JsLogo from "../../common/assets/image/200w.gif"
-import CssLogo from "../../common/assets/image/4202020css3htmllogosocialsocialmedia-115668_115633.png"
+import ReactLogo  from  "../../common/assets/image/React.png"
+import JsLogo from "../../common/assets/image/JavaScript.png"
+import CssLogo from "../../common/assets/image/CSS.png"
+import HtmlLogo from "../../common/assets/image/HTML.png"
+import TsLogo from "../../common/assets/image/TypeScript.png"
+import ReduxLogo from "../../common/assets/image/Redux.png"
 import { SkillBlockConstructor } from "./skillsBlockConstructor/SkillBlockConstructor";
+import { transpile } from "typescript";
 type PropsType = {
 
 }
@@ -28,6 +32,27 @@ export const Skills: React.FC<PropsType> = (props) => {
                     alt={"JsLogo"}
                     title={"JavaScript"}
                     description={"JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else."}
+                />
+                <SkillBlockConstructor
+                    img={HtmlLogo}
+                    alt={"HtmlLogo"}
+                    title={"HTML"}
+                    description={"HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript)."}
+                />
+            </div>
+                      
+            <div className={stylesContainer.Container} >
+                <SkillBlockConstructor
+                    img={ReduxLogo}
+                    alt={"ReactLogo"}
+                    title={"Redux"}
+                    description={"Redux is a pattern and library for managing and updating application state, using events called `actions`. It serves as a centralized store for state that needs to be used across your entire application, with rules ensuring that the state can only be updated in a predictable fashion."}
+                />
+                <SkillBlockConstructor
+                    img={TsLogo}
+                    alt={"TsLogo"}
+                    title={"TypeScript"}
+                    description={"TypeScript is a free and open-source high-level programming language developed by Microsoft that adds static typing with optional type annotations to JavaScript. It is designed for the development of large applications and transpiles to JavaScript."}
                 />
                 <SkillBlockConstructor
                     img={CssLogo}

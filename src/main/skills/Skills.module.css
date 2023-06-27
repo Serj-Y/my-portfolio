@@ -7,26 +7,8 @@
 
 }
 
-.SkillsBlock {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 200px;
-    height: 400px;
-    background-color: aliceblue;
-}
-
-
-
 .Img {
     width: 100px;
     height: 100px;
 }
 
-
-.Description {
-
-    height: 100%;
-
-}
