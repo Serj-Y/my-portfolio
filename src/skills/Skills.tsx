@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./Skills.module.css"
-import stylesContainer from "../../common/styles/Container.module.css"
-import ReactLogo  from  "../../common/assets/image/React.png"
-import JsLogo from "../../common/assets/image/JavaScript.png"
-import CssLogo from "../../common/assets/image/CSS.png"
-import HtmlLogo from "../../common/assets/image/HTML.png"
-import TsLogo from "../../common/assets/image/TypeScript.png"
-import ReduxLogo from "../../common/assets/image/Redux.png"
+import stylesContainer from "../common/styles/Container.module.css"
+import ReactLogo  from  "../common/assets/image/React.png"
+import JsLogo from "../common/assets/image/JavaScript.png"
+import CssLogo from "../common/assets/image/CSS.png"
+import HtmlLogo from "../common/assets/image/HTML.png"
+import TsLogo from "../common/assets/image/TypeScript.png"
+import ReduxLogo from "../common/assets/image/Redux.png"
 import { SkillBlockConstructor } from "./skillsBlockConstructor/SkillBlockConstructor";
 
 type PropsType = {

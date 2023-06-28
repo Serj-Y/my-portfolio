@@ -1,0 +1,17 @@
+.MyProjectBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+.Img {
+    width: 100px;
+    height: 100px;
+}
+
+.Description {
+    text-align: center;
+    height: 80%;
+
+}
