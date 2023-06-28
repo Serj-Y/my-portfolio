@@ -12,7 +12,7 @@ type PropsType = {
 
 export const MyProjects: React.FC<PropsType> = (props) => {
     return (
-        <div className={styles.Skills}>
+        <div className={styles.Projects}>
             <div className={styles.Title}>
                 <h2>My Projects</h2>
             </div>

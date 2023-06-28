@@ -3,6 +3,7 @@ import { Header } from './header/Header';
 import { Main } from './main/Main';
 import { Skills } from './skills/Skills';
 import { MyProjects } from './myProjects/MyProjects';
+import { Footer } from './footer/Footer';
 
 
 const App =() => {
@@ -12,6 +13,8 @@ const App =() => {
       <Main />
       <Skills/>
       <MyProjects/>
+
+      <Footer/>
     </div>
   );
 }

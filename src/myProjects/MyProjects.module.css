@@ -1,14 +1,9 @@
-.Skills {
+.Projects {
   background-color: rgb(179, 234, 164);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.Img {
-  width: 100px;
-  height: 100px;
 }
 
 .Title {
