@@ -2,19 +2,20 @@ import React from 'react';
 import { Header } from './header/Header';
 import { Main } from './main/Main';
 import { Skills } from './skills/Skills';
-import { MyProjects } from './myProjects/MyProjects';
+import { MyProjects } from './projects/MyProjects';
 import { Footer } from './footer/Footer';
+import { Contacts } from './contacts/Contacts';
 
 
-const App =() => {
+const App = () => {
   return (
     <div>
       <Header />
       <Main />
-      <Skills/>
-      <MyProjects/>
-
-      <Footer/>
+      <Skills />
+      <MyProjects />
+      <Contacts />
+      <Footer />
     </div>
   );
 }
