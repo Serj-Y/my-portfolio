@@ -1,23 +1,22 @@
 import React from "react";
-import styles from "./MyProjectBlockConstructor.module.css"
+import styles from "./BlockConstructor.module.css"
 
 
 type PropsType = {
     img: string | undefined;
-    name: string;
-    description: string;
     alt: string
-
+    description: string;
+    name: string;
 }
 
-export const MyProjectBlockConstructor: React.FC<PropsType> = (props) => {
+export const BlockConstructor: React.FC<PropsType> = (props) => {
     return (
-        <div className={styles.MyProjectBlock}>
+        <div className={styles.BlockConstructor}>
             <div>
                 <img className={styles.Img}
                     src={props.img} alt={props.alt} />
             </div>
-            <div className={styles.Name}>
+            <div className={styles.name}>
                 <h3> {props.name}</h3>
             </div>
             <div className={styles.Description}>
