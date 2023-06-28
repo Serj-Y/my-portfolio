@@ -8,7 +8,7 @@ import HtmlLogo from "../../common/assets/image/HTML.png"
 import TsLogo from "../../common/assets/image/TypeScript.png"
 import ReduxLogo from "../../common/assets/image/Redux.png"
 import { SkillBlockConstructor } from "./skillsBlockConstructor/SkillBlockConstructor";
-import { transpile } from "typescript";
+
 type PropsType = {
 
 }
@@ -20,7 +20,7 @@ export const Skills: React.FC<PropsType> = (props) => {
             <div className={styles.Title}>
                 <h2>Skills</h2>
             </div>
-            <div className={stylesContainer.Container} >
+            <div className={`${stylesContainer.Container} ${styles.Container}`} >
                 <SkillBlockConstructor
                     img={ReactLogo}
                     alt={"ReactLogo"}
@@ -38,10 +38,7 @@ export const Skills: React.FC<PropsType> = (props) => {
                     alt={"HtmlLogo"}
                     title={"HTML"}
                     description={"HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript)."}
-                />
-            </div>
-                      
-            <div className={stylesContainer.Container} >
+                /> 
                 <SkillBlockConstructor
                     img={ReduxLogo}
                     alt={"ReactLogo"}
@@ -61,6 +58,10 @@ export const Skills: React.FC<PropsType> = (props) => {
                     description={"Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media."}
                 />
             </div>
+                      
+    
+               
+            
         </div>
     )
 }
