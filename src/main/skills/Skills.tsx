@@ -17,8 +17,8 @@ type PropsType = {
 export const Skills: React.FC<PropsType> = (props) => {
     return (
         <div className={styles.Skills}>
-            <div>
-                <h1>Skills</h1>
+            <div className={styles.Title}>
+                <h2>Skills</h2>
             </div>
             <div className={stylesContainer.Container} >
                 <SkillBlockConstructor

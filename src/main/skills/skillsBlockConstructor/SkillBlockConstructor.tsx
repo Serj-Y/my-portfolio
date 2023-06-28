@@ -18,7 +18,7 @@ export const SkillBlockConstructor: React.FC<PropsType> = (props) => {
                     src={ props.img   } alt={props.alt} />
                 </div>
                 <div className={styles.Title}>
-                    <h2> {props.title}</h2>
+                    <h3> {props.title}</h3>
                 </div>
                 <div className={styles.Description}>
                     <h5>{props.description}</h5>
