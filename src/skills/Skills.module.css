@@ -1,5 +1,5 @@
 .Skills {
-    background-color: beige;
+ 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,9 +12,6 @@
     height: 100px;
 }
 
-.Title {
-text-decoration: underline;
-}
 .Container {
   align-items: flex-start; 
   justify-content: space-between;

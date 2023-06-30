@@ -19,7 +19,7 @@ export const Contacts: React.FC<PropsType> = (props) => {
                     <input className={styles.Input} type="text" />
                     <input className={styles.Input} type="text" />
                     <textarea className={styles.TextArea} name="" id="" />
-                    <button type="submit">Send</button>
+                    <button  className={styles.Button}type="submit">Submit</button>
                 </form>
             </div>
         </div>

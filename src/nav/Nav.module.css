@@ -1,11 +1,12 @@
 .Nav {
-display: flex;
-justify-content: center;
-justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 300px;
+    
+}
 
-border: 1px solid;
-width: 300px;
-
-
-
+.Nav a {
+    text-decoration: none;
+    color: #8cc4df;
 }

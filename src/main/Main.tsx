@@ -10,7 +10,7 @@ type PropsType = {
 export const Main: React.FC<PropsType> = (props) => {
     return (
         <div className={styles.Main}>
-            <div className= {`${styleContainer.Container} ${styles.Container}`} >
+            <div className= {styles.Container} >
                 <div className={styles.Img}>
                     img
                 </div>
