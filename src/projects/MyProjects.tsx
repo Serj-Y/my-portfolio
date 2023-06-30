@@ -4,6 +4,7 @@ import stylesContainer from "../common/styles/Container.module.css";
 import ReactLogo from "../common/assets/image/React.png";
 import JsLogo from "../common/assets/image/JavaScript.png";
 import { BlockConstructor } from "../common/blockConstructor/BlockConstructor";
+import { TitleConstructor } from "../common/titleConstructor/TitleConstructor";
 
 type PropsType = {
 
@@ -13,9 +14,7 @@ type PropsType = {
 export const MyProjects: React.FC<PropsType> = (props) => {
     return (
         <div className={styles.Projects}>
-            <div className={styles.Title}>
-                <h2>My Projects</h2>
-            </div>
+         <TitleConstructor Title={"My Projects"}  />
             <div className={`${stylesContainer.Container} ${styles.Container}`} >
                 <BlockConstructor
                     propBlockStyle={styles.Block}

@@ -8,6 +8,7 @@ import HtmlLogo from "../common/assets/image/HTML.png"
 import TsLogo from "../common/assets/image/TypeScript.png"
 import ReduxLogo from "../common/assets/image/Redux.png"
 import { BlockConstructor } from "../common/blockConstructor/BlockConstructor"
+import { TitleConstructor } from "../common/titleConstructor/TitleConstructor";
 
 type PropsType = {
 
@@ -17,10 +18,8 @@ type PropsType = {
 export const Skills: React.FC<PropsType> = (props) => {
     return (
         <div className={styles.Skills}>
-            <div className={styles.Title}>
-                <h2>Skills</h2>
-            </div>
-            <div className={`${stylesContainer.Container} ${styles.Container}`} >
+             <TitleConstructor Title={"Skills"}  />
+            <div className={`${stylesContainer.Container} ${styles.container}`} >
                 <BlockConstructor
                     img={ReactLogo}
                     alt={"ReactLogo"}

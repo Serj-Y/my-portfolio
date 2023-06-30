@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Contacts.module.css"
+import { TitleConstructor } from "../common/titleConstructor/TitleConstructor";
 
 
 
@@ -11,9 +12,7 @@ type PropsType = {
 export const Contacts: React.FC<PropsType> = (props) => {
     return (
         <div className={styles.Contacts}>
-            <div className={styles.Title}>
-                <h2>Contacts</h2>
-            </div>
+             <TitleConstructor Title={"Contacts"}  />
             <div className={styles.Container} >
                 <form className={styles.Form}>
                     <input className={styles.Input} type="text" />
