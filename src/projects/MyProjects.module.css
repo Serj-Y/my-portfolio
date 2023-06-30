@@ -11,5 +11,22 @@
 }
 
 .Container {
+  justify-content: space-between; 
   align-items: flex-start;
 }
+
+@media screen and (max-width: 1000px) {
+  .Container {
+      justify-content: center;
+  }
+}
+
+.Img{
+  min-width: 400px;
+  min-height: 400px;
+}
+.Block{
+  min-width: 400px;
+  min-height: 400px;
+}
+

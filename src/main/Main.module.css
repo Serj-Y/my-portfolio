@@ -1,20 +1,26 @@
 .Main {
-background-color: rgb(170, 209, 209);
+/* background-color: rgb(170, 209, 209); */
 height: 100vh;
 }
 
+.Container {
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 750px) {
+    .Container {
+        justify-content: center;
+    }
+}
 
 .Img {
     height: 400px;
     width: 300px;
     background-color: aliceblue;
-
-
 }
 
 .Text {
     width: 300px;
     height: fit-content;
-    background-color: aliceblue;
-    
+    background-color: aliceblue;    
 }

@@ -16,5 +16,12 @@
 text-decoration: underline;
 }
 .Container {
-  align-items: flex-start;
+  align-items: flex-start; 
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 936px) {
+  .Container {
+      justify-content: center;
+  }
 }

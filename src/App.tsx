@@ -5,11 +5,12 @@ import { Skills } from './skills/Skills';
 import { MyProjects } from './projects/MyProjects';
 import { Footer } from './footer/Footer';
 import { Contacts } from './contacts/Contacts';
+import  Styles  from './App.module.css'
 
 
 const App = () => {
   return (
-    <div>
+    <div className={Styles.App}>
       <Header />
       <Main />
       <Skills />

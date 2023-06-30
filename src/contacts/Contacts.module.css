@@ -1,44 +1,42 @@
 .Contacts {
   background-color: rgb(235, 229, 157);
-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  
+  justify-content: flex-start;
+
 }
 
 .Container {
-height: 100%;
   width: 80%;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
-
+  min-width: 400px; 
 }
-.Form{
+
+
+.Form {
   flex-wrap: wrap;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding-bottom: 35px;
 }
 
 .Input {
+  min-width: 400px;
   width: 60%;
   display: flex;
-margin: 5px;
+  margin: 5px;
 
 }
 
 .TextArea {
+  min-width: 400px;
   width: 60%;
   display: flex;
   margin-top: 5px;
   margin-bottom: 25px;
   height: 100px;
 }
+
