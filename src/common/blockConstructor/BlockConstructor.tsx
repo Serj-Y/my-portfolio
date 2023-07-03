@@ -9,14 +9,14 @@ type PropsType = {
     propBlockStyle?: string;
     propImgStyle?: string;
     img?: string;
-    alt?: string
+    alt?: string;
     description?: string;
 }
 
 export const BlockConstructor: React.FC<PropsType> = (props) => {
     return (
         <div className={`${styles.BlockConstructor} ${props.propBlockStyle}`}>
-            <div> 
+            <div>
                 <img className={`${styles.Img} ${props.propImgStyle}`}
                     src={props.img} alt={props.alt} />
             </div>

@@ -12,13 +12,12 @@
     height: 100px;
 }
 
-.container {
-align-items: flex-start;
+.Container {
   justify-content: space-between;
 }
 
 @media screen and (max-width: 936px) {
-  .container {
+  .Container {
       justify-content: center;
   }
 }
