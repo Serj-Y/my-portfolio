@@ -4,4 +4,15 @@
     font-weight: 300;
     margin-bottom: 30px;
     letter-spacing: 4px;
+    position: relative;
+}
+
+.Title::after {
+    content: "";
+    height: 1px;
+    width: 55px;
+    position: absolute;
+    background-color: #8cc4df;
+    left: 50%;
+    transform: translate(-50%, 50%)
 }

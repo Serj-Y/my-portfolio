@@ -22,10 +22,17 @@
     }
 }
 
-.Img {
+.ImgContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 400px;
     width: 300px;
     background-color: #122543;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .Text {

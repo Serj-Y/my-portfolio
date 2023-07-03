@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Main.module.css"
-
+import DefaultPhoto from "../common/assets/image/Avatar.png"
 
 
 type PropsType = {
@@ -8,11 +8,15 @@ type PropsType = {
 }
 
 export const Main: React.FC<PropsType> = (props) => {
+
+const DefaultImage ={
+    backgroundImage: `url(${DefaultPhoto})`
+}
+
     return (
         <div className={styles.Main}>
             <div className= {styles.Container} >
-                <div className={styles.Img}>
-                    img
+                <div className={styles.ImgContainer} style={DefaultImage}>
                 </div>
                 <div className={styles.Text} >
                     <span> Hi There</span>
@@ -23,3 +27,4 @@ export const Main: React.FC<PropsType> = (props) => {
         </div>
     )
 }
+// 

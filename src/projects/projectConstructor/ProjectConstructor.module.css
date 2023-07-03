@@ -1,0 +1,32 @@
+.ProjectConstructor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    min-height: 600px;
+    background-color: #122543;
+}
+
+.Img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ViewButton {
+    background-color: #122543;
+}
+
+.Description {
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0 5px;
+}
+
+.Title {
+    letter-spacing: 2px;
+}

@@ -3,6 +3,7 @@ import styles from "./BlockConstructor.module.css"
 
 
 type PropsType = {
+    title?: string;
     propNameStyle?: string;
     propDescriptionStyle?: string;
     propBlockStyle?: string;
@@ -10,18 +11,17 @@ type PropsType = {
     img?: string;
     alt?: string
     description?: string;
-    name?: string;
 }
 
 export const BlockConstructor: React.FC<PropsType> = (props) => {
     return (
         <div className={`${styles.BlockConstructor} ${props.propBlockStyle}`}>
-            <div>
+            <div> 
                 <img className={`${styles.Img} ${props.propImgStyle}`}
                     src={props.img} alt={props.alt} />
             </div>
             <div className={`${styles.Name} ${props.propNameStyle}`}>
-                <h3> {props.name}</h3>
+                <h3> {props.title}</h3>
             </div>
             <div className={`${styles.Description} ${props.propDescriptionStyle}`}>
                 <h5>{props.description}</h5>

@@ -15,8 +15,12 @@
 .Description {
 text-align: center;
 letter-spacing: 1px;
+margin:0 5px;
 }
 
 .Name{
     letter-spacing: 2px;
 }
+
+
+
