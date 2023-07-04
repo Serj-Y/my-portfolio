@@ -1,0 +1,40 @@
+.Contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .Container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    min-width: 400px;
+
+    .Form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      padding-bottom: 35px;
+
+      .Input {
+        background-color: #dfe3ee;
+        min-width: 400px;
+        width: 60%;
+        display: flex;
+        margin: 5px;
+      }
+
+      .TextArea {
+        background-color: #dfe3ee;
+        min-width: 400px;
+        width: 60%;
+        display: flex;
+        margin-top: 5px;
+        margin-bottom: 25px;
+        height: 100px;
+      }
+    }
+  }
+}

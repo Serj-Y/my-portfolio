@@ -1,31 +1,30 @@
-.Nav{
+.Nav {
     display: flex;
     justify-content: space-evenly;
     width: 50%;
     padding-top: 10px;
-}
-
-.Nav a {
-    text-decoration: none;
-    color: #8cc4df;
+  
     font-size: x-large;
     text-transform: capitalize;
     font-weight: 300;
     letter-spacing: 1px;
-}
+   
+    .A{ 
+         color: #8cc4df;
+         text-decoration: none;
+    }
 
-@media screen and (max-width:750px ){
-    .Nav {
+    @media screen and (max-width:750px) {
         width: 70%;
     }
-}
-@media screen and (max-width:500px ){
-    .Nav {
+
+    @media screen and (max-width:500px) {
         width: 90%;
     }
-}
-@media screen and (max-width:350px ){
-    .Nav {
+
+    @media screen and (max-width:350px) {
         width: 100%;
     }
+
+
 }

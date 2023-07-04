@@ -1,0 +1,24 @@
+.SkillBlockConstructor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    min-height: 400px;
+    background-color: #122543;
+
+    .Img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .Name {
+        letter-spacing: 2px;
+    }
+
+    .Description {
+        text-align: center;
+        letter-spacing: 1px;
+        margin: 0 5px;
+    }
+
+}

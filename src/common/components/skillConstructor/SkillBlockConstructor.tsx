@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./BlockConstructor.module.css"
+import styles from "./SkillBlockConstructor.module.scss"
 
 
 type PropsType = {
@@ -13,9 +13,9 @@ type PropsType = {
     description?: string;
 }
 
-export const BlockConstructor: React.FC<PropsType> = (props) => {
+export const SkillBlockConstructor: React.FC<PropsType> = (props) => {
     return (
-        <div className={`${styles.BlockConstructor} ${props.propBlockStyle}`}>
+        <div className={`${styles.SkillBlockConstructor} ${props.propBlockStyle}`}>
             <div>
                 <img className={`${styles.Img} ${props.propImgStyle}`}
                     src={props.img} alt={props.alt} />

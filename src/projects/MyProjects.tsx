@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./MyProjects.module.css"
-import stylesContainer from "../common/styles/Container.module.css";
-import { TitleConstructor } from "../common/titleConstructor/TitleConstructor";
-import { ProjectConstructor } from "./projectConstructor/ProjectConstructor";
+import styles from "./MyProjects.module.scss"
+import stylesContainer from "../common/components/styles/Container.module.scss";
+import { TitleConstructor } from "../common/components/titleConstructor/TitleConstructor";
+import { ProjectConstructor } from "../common/components/projectConstructor/ProjectConstructor";
 import ReactLogo from "../common/assets/image/React.png";
 import JsLogo from "../common/assets/image/JavaScript.png";
 
@@ -25,6 +25,7 @@ export const MyProjects: React.FC<PropsType> = (props) => {
             <TitleConstructor Title={"My Projects"} />
             <div className={`${stylesContainer.Container} ${styles.Container}`} >
                 <ProjectConstructor
+                HrefForButton="https://legacy.reactjs.org"
                     propProjectStyle={styles.Block}
                     propImgStyle={styles.Img}
                     style={ReactImage}
@@ -32,6 +33,7 @@ export const MyProjects: React.FC<PropsType> = (props) => {
                     description={"React is a JavaScript-based UI development library.  Facebook and an open-source developer community run it. Although React is a library rather than a language, it is widely used in web development. The library first appeared in May 2013 and is now one of the most commonly used frontend libraries for web development."}
                 />
                 <ProjectConstructor
+                 HrefForButton="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/"
                     propProjectStyle={styles.Block}
                     propImgStyle={styles.Img}
                     style={JsImage}

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Main.module.css"
+import styles from "./Main.module.scss"
 import DefaultPhoto from "../common/assets/image/Avatar.png"
 
 
@@ -12,7 +12,6 @@ export const Main: React.FC<PropsType> = (props) => {
 const DefaultImage ={
     backgroundImage: `url(${DefaultPhoto})`
 }
-
     return (
         <div className={styles.Main}>
             <div className= {styles.Container} >

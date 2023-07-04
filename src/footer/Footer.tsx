@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./Footer.module.css"
-import stylesContainer from "../common/styles/Container.module.css";
+import styles from "./Footer.module.scss"
+import stylesContainer from "../common/components/styles/Container.module.scss";
 import ReactLogo from "../common/assets/image/React.png";
 import JsLogo from "../common/assets/image/JavaScript.png";
 import ReduxLogo from "../common/assets/image/Redux.png"
 import TypeScriptLogo from "../common/assets/image/TypeScript.png"
-import { BlockConstructor } from "../common/blockConstructor/BlockConstructor";
-import { TitleConstructor } from "../common/titleConstructor/TitleConstructor";
+import { SkillBlockConstructor } from "../common/components/skillConstructor/SkillBlockConstructor";
+import { TitleConstructor } from "../common/components/titleConstructor/TitleConstructor";
 
 type PropsType = {
 
@@ -18,16 +18,16 @@ export const Footer: React.FC<PropsType> = (props) => {
         <div className={styles.Footer}>
             <TitleConstructor Title={"Serj_Y"} />
             <div className={stylesContainer.Container} >
-                <BlockConstructor
+                <SkillBlockConstructor
                     img={ReactLogo} alt={"ReactLogo"} propImgStyle={styles.Img} propBlockStyle={styles.Block}
                 />
-                <BlockConstructor
+                <SkillBlockConstructor
                     img={ReduxLogo} alt={"ReduxLogo"} propImgStyle={styles.Img} propBlockStyle={styles.Block}
                 />
-                <BlockConstructor
+                <SkillBlockConstructor
                     img={JsLogo} alt={"JsLogo"} propImgStyle={styles.Img} propBlockStyle={styles.Block}
                 />
-                <BlockConstructor
+                <SkillBlockConstructor
                     img={TypeScriptLogo} alt={"TypeScriptLogo"} propImgStyle={styles.Img} propBlockStyle={styles.Block}
                 />
             </div>
