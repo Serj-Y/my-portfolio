@@ -1,3 +1,5 @@
+@import "../common/components/styles/sass/Variables.scss";
+
 .Main {
     display: flex;
     flex-direction: column;
@@ -24,7 +26,7 @@
             justify-content: center;
             height: 400px;
             width: 300px;
-            background-color: #122543;
+            background-color:$bgSecondColor;
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
@@ -33,7 +35,7 @@
         .Text {
             width: 300px;
             height: fit-content;
-            background-color: #122543;
+            background-color:$bgSecondColor;
             font-size: x-large;
             text-transform: capitalize;
             font-weight: 300;

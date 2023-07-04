@@ -1,0 +1,19 @@
+@import "../src/common/components/styles/sass/variables.scss";
+
+.App {
+    background-color: $bgColor;
+    font-family: $fontFamily;
+    color: $textColor;
+}
+
+h1,h2,h3 {
+    text-decoration: none;
+    color: $primaryColor
+}
+
+button {
+    font-family: $fontFamily;
+    color: $primaryColor;
+    background-color: $bgSecondColor;
+    font-size: large;
+}

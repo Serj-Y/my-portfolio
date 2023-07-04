@@ -1,3 +1,4 @@
+@import "../common/components/styles/sass/Variables.scss";
 .Contacts {
   display: flex;
   flex-direction: column;
@@ -19,7 +20,12 @@
       padding-bottom: 35px;
 
       .Input {
-        background-color: #dfe3ee;
+        background-color: $bgSecondColor;
+        color: $textColor;
+        font-family: $fontFamily;
+        font-size: medium;
+        font-weight: 600;
+        letter-spacing: 1px;
         min-width: 400px;
         width: 60%;
         display: flex;
@@ -27,7 +33,12 @@
       }
 
       .TextArea {
-        background-color: #dfe3ee;
+        background-color: $bgSecondColor;
+        color: $textColor;
+        font-family: $fontFamily;
+        font-size: medium;
+        font-weight: 600;
+        letter-spacing: 1px;
         min-width: 400px;
         width: 60%;
         display: flex;
