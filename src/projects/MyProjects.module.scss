@@ -1,12 +1,11 @@
+@import "../common/components/styles/sass/mixins.scss";
+
 .Projects {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  @include mainContainer;
   align-items: center;
 
   .Container {
-    justify-content: space-between;
-    align-items: flex-start;
+    @include container;
 
     @media screen and (max-width: 1000px) {
       justify-content: center;

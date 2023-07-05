@@ -1,6 +1,5 @@
 import React from "react";
-import styles from "./Footer.module.scss"
-import stylesContainer from "../common/components/styles/Container.module.scss";
+import styles from "./Footer.module.scss";
 import ReactLogo from "../common/assets/image/React.png";
 import JsLogo from "../common/assets/image/JavaScript.png";
 import ReduxLogo from "../common/assets/image/Redux.png"
@@ -21,7 +20,7 @@ export const Footer: React.FC<PropsType> = (props) => {
     return (
         <div className={styles.Footer}>
             <TitleConstructor Title={"Serj_Y"} />
-            <div className={stylesContainer.Container} >
+            <div className={styles.Container} >
                 <SkillBlockConstructor
                     img={ReactLogo} alt={"ReactLogo"} propImgStyle={styles.Img} propBlockStyle={styles.Block}
                 />

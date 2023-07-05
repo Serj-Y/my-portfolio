@@ -5,9 +5,8 @@
   @include flexColumCenter;
 
   .Container {
-    display: flex;
+    @include container;
     justify-content: center;
-    width: 80%;
     min-width: 400px;
 
     .Form {

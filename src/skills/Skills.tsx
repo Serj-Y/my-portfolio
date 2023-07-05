@@ -21,7 +21,7 @@ export const Skills: React.FC<PropsType> = (props) => {
     return (
         <div className={styles.Skills}>
             <TitleConstructor Title={"Skills"} />
-            <div className={`${stylesContainer.Container} ${styles.container}`} >
+            <div className={styles.Container} >
                 <SkillBlockConstructor
                     img={ReactLogo}
                     alt="ReactLogo"

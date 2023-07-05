@@ -23,7 +23,7 @@ export const MyProjects: React.FC<PropsType> = (props) => {
     return (
         <div className={styles.Projects}>
             <TitleConstructor Title={"My Projects"} />
-            <div className={`${stylesContainer.Container} ${styles.Container}`} >
+            <div className={styles.Container} >
                 <ProjectConstructor
                 HrefForButton="https://legacy.reactjs.org"
                     propProjectStyle={styles.Block}

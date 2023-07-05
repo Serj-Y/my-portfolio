@@ -16,6 +16,23 @@
     letter-spacing: 4px;
 }
 
+@mixin mainContainer() {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+@mixin container() {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
 @mixin flexColumCenter() {
     display: flex;
     flex-direction: column;
