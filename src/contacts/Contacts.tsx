@@ -15,7 +15,7 @@ export const Contacts: React.FC<PropsType> = (props) => {
              <TitleConstructor Title={"Contacts"}  />
             <div className={styles.Container} >
                 <form className={styles.Form}>
-                    <input className={styles.Input} type="text" name="telephone" autoComplete="number" />
+                    <input className={styles.Input} type="text" name="name" autoComplete="name" />
                     <input className={styles.Input} type="text" name="email" autoComplete="email" />
                     <textarea className={styles.TextArea} name="message" id="" />
                     <button  className={styles.Button}type="submit">Submit</button>
