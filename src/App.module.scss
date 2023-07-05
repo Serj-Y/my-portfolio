@@ -1,13 +1,12 @@
 @import "../src/common/components/styles/sass/variables.scss";
+@import "../src/common/components/styles/sass/mixins.scss";
 
 .App {
     background-color: $bgColor;
-    font-family: $fontFamily;
-    color: $textColor;
+ @include text;
 }
 
 h1,h2,h3 {
-    text-decoration: none;
     color: $primaryColor
 }
 
