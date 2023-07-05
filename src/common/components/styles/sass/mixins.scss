@@ -4,6 +4,7 @@
 @mixin text() {
     font-family: $fontFamily;
     font-weight: 600;
+    letter-spacing: 1px;
     color: $textColor;
 }
 
@@ -13,4 +14,11 @@
     font-weight: 300;
     margin-bottom: 30px;
     letter-spacing: 4px;
+}
+
+@mixin flexColumCenter() {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

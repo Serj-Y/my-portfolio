@@ -1,4 +1,5 @@
 @import "../common/components/styles/sass/Variables.scss";
+@import "../common/components/styles/sass/mixins.scss";
 
 .Main {
     display: flex;
@@ -20,12 +21,9 @@
         }
 
         .ImgContainer {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 400px;
-            width: 300px;
+        @include flexColumCenter
+            height: 500px;
+            width: 400px;
             background-color:$bgSecondColor;
             background-size: contain;
             background-position: center;
