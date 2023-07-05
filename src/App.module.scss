@@ -5,14 +5,3 @@
     background-color: $bgColor;
  @include text;
 }
-
-h1,h2,h3 {
-    color: $primaryColor
-}
-
-button {
-    font-family: $fontFamily;
-    color: $primaryColor;
-    background-color: $bgSecondColor;
-    font-size: large;
-}

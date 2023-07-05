@@ -1,5 +1,6 @@
 @import "../common/components/styles/sass/Variables.scss";
 @import "../common/components/styles/sass/mixins.scss";
+@import "../common/components/button/Button.module.scss";
 
 .Contacts {
   @include flexColumCenter;
@@ -34,6 +35,10 @@
         margin-top: 5px;
         margin-bottom: 25px;
         height: 100px;
+      }
+
+      .Button {
+        @extend .Btn;
       }
     }
   }

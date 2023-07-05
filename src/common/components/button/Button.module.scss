@@ -1,0 +1,16 @@
+@import "../styles/sass/Variables.scss";
+@import "../styles/sass/mixins.scss";
+
+.Btn {
+    font-family: $fontFamily;
+    color: $primaryColor;
+    background-color: $bgSecondColor;
+    font-size: large;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1;
+}

@@ -27,20 +27,11 @@
             opacity: 0.4;
         }
 
-        .ViewButton {
-            text-decoration: none;
-            color: $primaryColor;
-            letter-spacing: 1px;
-            font-size: large;
-            padding: 10px 20px;
-            background-color: $bgSecondColor;
-            position: relative;
-            z-index: 1;
-        }
     }
 
     .Title {
         letter-spacing: 2px;
+        color: $primaryColor;
     }
 
     .Description {

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Nav.module.scss"
+import { Button } from "../common/components/button/Button";
 
 type PropsType = {
 
@@ -8,10 +9,10 @@ type PropsType = {
 export const Nav: React.FC<PropsType> = (props) => {
     return (
         <div className={styles.Nav}>
-<a className={styles.A} href="Home">Home</a>
-<a className={styles.A} href="About">About</a>
-<a className={styles.A} href="Skill">Skills</a>
-<a className={styles.A} href="Contacts">Contacts</a>
+            <Button ButtonText="Home" PropBtnStyle={styles.NavButton} />
+            <Button ButtonText="About" PropBtnStyle={styles.NavButton} />
+            <Button ButtonText="Skills" PropBtnStyle={styles.NavButton} />
+            <Button ButtonText="Contacts" PropBtnStyle={styles.NavButton} />
         </div>
     )
 }
