@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Main.module.scss"
 import DefaultPhoto from "../common/assets/image/Avatar.png"
 import { Fade } from "react-awesome-reveal";
+import ReactTypingEffect from "react-typing-effect";
 
 type PropsType = {
 
@@ -22,7 +23,8 @@ export const Main: React.FC<PropsType> = (props) => {
                     <div className={styles.Text} >
                         <span> Hi There</span>
                         <span>I Am Serhii <span>Iliniuk</span></span>
-                        <h3>Front_end Developer.</h3>
+                     <ReactTypingEffect text="Front_end Developer."  />
+                        
                     </div>
                 </Fade>
             </div>

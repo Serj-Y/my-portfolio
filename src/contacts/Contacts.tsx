@@ -11,7 +11,7 @@ type PropsType = {
 
 export const Contacts: React.FC<PropsType> = (props) => {
     return (
-        <div className={styles.Contacts}>
+        <div id="Contacts" className={styles.Contacts}>
              <TitleConstructor Title={"Contacts"}  />
             <div className={styles.Container} >
                 <Fade direction="up" >
@@ -22,7 +22,6 @@ export const Contacts: React.FC<PropsType> = (props) => {
                     <button  className={styles.Button}type="submit">Submit</button>
                 </form>
                 </Fade>
-               
             </div>
         </div>
     )

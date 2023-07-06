@@ -19,7 +19,7 @@ type PropsType = {
 export const Footer: React.FC<PropsType> = (props) => {
     return (
         <div className={styles.Footer}>
-            <TitleConstructor Title={"Serhii_Iliniuk"} />
+            <TitleConstructor Title={"Serhii Iliniuk"} />
             <div className={styles.Container} >
                 <SkillBlockConstructor
                     img={ReactLogo} alt={"ReactLogo"} propImgStyle={styles.Img} propBlockStyle={styles.Block}

@@ -19,7 +19,7 @@ type PropsType = {
 
 export const Skills: React.FC<PropsType> = (props) => {
     return (
-        <div className={styles.Skills}>
+        <div id="Skills" className={styles.Skills}>
             <TitleConstructor Title={"Skills"} />
             <div className={styles.Container} >
                  <Fade direction="left">

@@ -20,7 +20,7 @@ export const MyProjects: React.FC<PropsType> = (props) => {
     }
 
     return (
-        <div className={styles.Projects}>
+        <div id="Projects" className={styles.Projects}>
             <TitleConstructor Title={"My Projects"} />
             <div className={styles.Container} >
                 <Fade direction="left">
