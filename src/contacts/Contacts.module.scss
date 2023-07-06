@@ -3,39 +3,48 @@
 @import "../common/components/button/Button.module.scss";
 
 .Contacts {
-  @include flexColumCenter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   .Container {
     @include container;
     justify-content: center;
-    min-width: 400px;
 
     .Form {
+      width: 600px;
+
+      @media screen and (max-width: 650px) {
+        width: 450px;
+      }
+
+      @media screen and (max-width: 500px) {
+        width: 250px;
+      }
+
       @include flexColumCenter;
-      width: 80%;
       padding-bottom: 35px;
 
       .Input {
         background-color: $bgSecondColor;
         @include text;
         font-size: medium;
-        min-width: 400px;
-        width: 60%;
-        display: flex;
         margin: 5px;
         border: none;
-     color: $primaryColor
+        color: $primaryColor;
+        width: 100%;
       }
 
       .TextArea {
-     @extend .Input;
+        @extend .Input;
+        background-color: $bgSecondColor;
         height: 100px;
         color: $textColor;
       }
 
       .Button {
         @extend .Btn;
-         background-color: unset;
+        background-color: unset;
       }
     }
   }

@@ -5,7 +5,7 @@ import { Skills } from './skills/Skills';
 import { MyProjects } from './projects/MyProjects';
 import { Footer } from './footer/Footer';
 import { Contacts } from './contacts/Contacts'
-import  Styles  from './App.module.scss'
+import Styles from './App.module.scss'
 
 
 const App = () => {
