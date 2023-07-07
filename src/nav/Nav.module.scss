@@ -20,7 +20,7 @@
         max-width: 200px;
         cursor: default;
 
-        @media screen and (max-width:350px) {
+        @media screen and (max-width:400px) {
             letter-spacing: normal;
             font-size: larger;
         }
@@ -35,7 +35,7 @@
         width: 90%;
     }
 
-    @media screen and (max-width:350px) {
+    @media screen and (max-width:400px) {
         width: 100%;
 
     }
