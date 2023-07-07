@@ -7,7 +7,7 @@
     align-items: center;
     width: 300px;
     min-height: 600px;
-    background-color: $bgSecondColor;
+    // background-color: $bgSecondColor;
 
     .Img {
         @include flexColumCenter;
@@ -19,7 +19,7 @@
         &::before {
             position: absolute;
             content: "";
-            background-color: $bgSecondColor;
+            background-color: $bgColor;
             top: 0;
             bottom: 0;
             left: 0;
