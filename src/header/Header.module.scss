@@ -1,4 +1,9 @@
+@import "../common/components/styles/sass/Variables.scss";
+
 .Header {
     display: flex;
     justify-content: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
 }

@@ -9,7 +9,7 @@ type PropsType = {
 export const Header: React.FC<PropsType> = (props) => {
     return (
         <div className={styles.Header}>
-            <Nav />
+            <Nav  />
         </div>
     )
 }

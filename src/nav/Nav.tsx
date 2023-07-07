@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Nav.module.scss"
-import { Button } from "../common/components/button/Button";
 import { Link } from "react-scroll";
 
 
@@ -19,7 +18,7 @@ export const Nav: React.FC<PropsType> = (props) => {
             <Link className={styles.NavButton} activeClass={styles.Active}
                 to="Skills"
                 smooth={true}
-                offset={1}
+                offset={-45}
             > Skills</Link>
             <Link className={styles.NavButton} activeClass={styles.Active}
                 to="Projects"
