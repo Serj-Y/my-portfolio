@@ -32,6 +32,7 @@
         }
 
         .Text {
+            max-width: 100%;
             height: fit-content;
             background-color: $bgSecondColor;
             font-size: 25px;
@@ -44,7 +45,10 @@
             justify-content: flex-start;
             align-items: flex-start;
             flex-wrap: nowrap;
-
+ @media screen and(max-width: 300px) {
+                
+                max-width:  280px;
+            }
             span {
                 font-size: 25px;
 
@@ -74,9 +78,10 @@
 
                 &:nth-child(3) {
                     span {
-                        font-weight: 400;
-                        font-size: 30px;
+                    
+                        font-size: 50px;
                     }
+
                 }
             }
         }

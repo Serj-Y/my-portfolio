@@ -23,7 +23,7 @@ export const Main: React.FC<PropsType> = (props) => {
                     <div className={styles.Text} >
                         <span> Hi There</span>
                         <span>I Am Serhii <span>Iliniuk</span></span>
-                     <ReactTypingEffect text="Front_end Developer."  />
+                     <ReactTypingEffect  text="Front_end Developer."  />
                         
                     </div>
                 </Fade>
