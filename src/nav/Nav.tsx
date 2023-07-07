@@ -10,22 +10,22 @@ type PropsType = {
 export const Nav: React.FC<PropsType> = (props) => {
     return (
         <div className={styles.Nav}>
-            <Link className={styles.NavButton} activeClass={styles.Active}
+            <Link className={styles.NavButton}
                 to="Home"
                 smooth={true}
                 offset={1}
             > Home</Link>
-            <Link className={styles.NavButton} activeClass={styles.Active}
+            <Link className={styles.NavButton} 
                 to="Skills"
                 smooth={true}
-                offset={-45}
+                offset={-70}
             > Skills</Link>
-            <Link className={styles.NavButton} activeClass={styles.Active}
+            <Link className={styles.NavButton} 
                 to="Projects"
                 smooth={true}
-                offset={1}
+                offset={-35}
             > Projects</Link>
-            <Link className={styles.NavButton} activeClass={styles.Active}
+            <Link className={styles.NavButton} 
                 to="Contacts"
                 smooth={true}
                 offset={1}
