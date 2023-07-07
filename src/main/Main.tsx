@@ -14,7 +14,7 @@ export const Main: React.FC<PropsType> = (props) => {
         backgroundImage: `url(${DefaultPhoto})`
     }
     return (
-        <div className={styles.Main}>
+        <div id="Home" className={styles.Main}>
             <div className={styles.Container} >
                 <Fade direction="left">
                     <div className={styles.ImgContainer} style={DefaultImage} />

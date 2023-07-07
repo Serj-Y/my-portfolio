@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Nav.module.scss"
 import { Button } from "../common/components/button/Button";
+import { Link } from "react-scroll";
 
 
 type PropsType = {
@@ -10,10 +11,26 @@ type PropsType = {
 export const Nav: React.FC<PropsType> = (props) => {
     return (
         <div className={styles.Nav}>
-            <Button ButtonText="Home" PropBtnStyle={styles.NavButton} Href="" />
-            <Button ButtonText="Skills" PropBtnStyle={styles.NavButton} Href="#Skills" />
-            <Button ButtonText="Projects" PropBtnStyle={styles.NavButton} Href="#Projects" />
-            <Button ButtonText="Contacts" PropBtnStyle={styles.NavButton} Href="#Contacts" />
+            <Link className={styles.NavButton} activeClass={styles.Active}
+                to="Home"
+                smooth={true}
+                offset={1}
+            > Home</Link>
+            <Link className={styles.NavButton} activeClass={styles.Active}
+                to="Skills"
+                smooth={true}
+                offset={1}
+            > Skills</Link>
+            <Link className={styles.NavButton} activeClass={styles.Active}
+                to="Projects"
+                smooth={true}
+                offset={1}
+            > Projects</Link>
+            <Link className={styles.NavButton} activeClass={styles.Active}
+                to="Contacts"
+                smooth={true}
+                offset={1}
+            > Contacts</Link>
         </div>
     )
 }

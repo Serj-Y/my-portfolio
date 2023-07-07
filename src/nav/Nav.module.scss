@@ -1,5 +1,5 @@
 @import "../common/components/styles/sass/Variables.scss";
-
+@import "../common/components/button/Button.module.scss";
 .Nav {
     display: flex;
     justify-content: space-evenly;
@@ -8,6 +8,7 @@
     font-weight: 300;
 
 .NavButton{
+    @extend .Btn;
     background-color: unset;
     font-size: x-large;
     padding: 5px;
