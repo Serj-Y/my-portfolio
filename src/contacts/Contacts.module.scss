@@ -33,6 +33,9 @@
         border: none;
         color: $primaryColor;
         width: 100%;
+        &:focus{
+          transform: scale(1.05)
+                  }
       }
 
       .TextArea {
@@ -40,6 +43,9 @@
         background-color: $bgSecondColor;
         height: 100px;
         color: $textColor;
+        &:focus{
+transform: scale(1.05)
+        }
       }
 
       .Button {

@@ -6,8 +6,10 @@
   @include flexColumCenter;
   min-height: fit-content;
 
+
   .Container {
     @include container;
+    justify-content: center;
     width: 50%;
 
 

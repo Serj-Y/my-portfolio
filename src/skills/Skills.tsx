@@ -7,7 +7,7 @@ import HtmlLogo from "../common/assets/image/HTML.png"
 import TsLogo from "../common/assets/image/TypeScript.png"
 import ReduxLogo from "../common/assets/image/Redux.png"
 import GitLogo from "../common/assets/image/Git.png"
-import GitHubLogo from "../common/assets/image/GitHub.png"
+import GitHubLogo from "../common/assets/image/GitHubW.png"
 import {  SkillBlockConstructor } from "../common/components/skillConstructor/SkillBlockConstructor"
 import { TitleConstructor } from "../common/components/titleConstructor/TitleConstructor";
 import { Fade } from "react-awesome-reveal";
@@ -16,11 +16,11 @@ type PropsType = {
 
 }
 
-
 export const Skills: React.FC<PropsType> = (props) => {
     return (
         <div id="Skills" className={styles.Skills}>
             <TitleConstructor Title={"Skills"} />
+
             <div className={styles.Container} >
                  <Fade direction="left">
                     <SkillBlockConstructor
