@@ -17,7 +17,7 @@ export const Footer: React.FC<PropsType> = (props) => {
                 <a href="https://github.com/Serj-Y" className={styles.Btn} >
                     <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
-                <a href="https://instagram.com" className={styles.Btn} >
+                <a href="https://instagram.com/serhii_iliniuk" className={styles.Btn} >
                     <FontAwesomeIcon icon={faInstagram} size="2x" />
                 </a>
                 <a href="https://twitter.com/SYliniuc" className={styles.Btn} >
