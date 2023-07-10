@@ -2,12 +2,13 @@
 @import "../common/components/button/Button.module.scss";
 
 .Nav {
-    align-items: stretch;
+    // align-items: stretch;
     display: flex;
     justify-content: space-evenly;
     width: 50%;
     padding-top: 10px;
     font-weight: 300;
+    
 
     .NavButton {
         @extend .Btn;
