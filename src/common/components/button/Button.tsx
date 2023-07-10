@@ -9,5 +9,5 @@ type PropsType = {
 
 
 export const Button: React.FC<PropsType> = (props) => {
-    return <a className={`${styles.Btn} ${props.PropBtnStyle}`} href={props.Href}>{props.ButtonText}</a>
+    return <a className={`${styles.Btn} ${props.PropBtnStyle}`} target="_blank"  href={props.Href}>{props.ButtonText}</a>
 }

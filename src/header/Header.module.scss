@@ -6,9 +6,5 @@
     width: 100%;
     position: fixed;
     z-index: 1;
-
-    &:hover {
-        backdrop-filter: blur(5px);
-        transition: ease-in-out .3s;
-    }
+    backdrop-filter: blur(5px);
 }

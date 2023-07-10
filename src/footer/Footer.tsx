@@ -14,16 +14,16 @@ export const Footer: React.FC<PropsType> = (props) => {
         <div className={styles.Footer}>
             <TitleConstructor Title={"Serhii Iliniuk"} />
             <div className={styles.Container} >
-                <a href="https://github.com/Serj-Y" className={styles.Btn} >
+                <a href="https://github.com/Serj-Y" target="_blank" className={styles.Btn} >
                     <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
-                <a href="https://instagram.com" className={styles.Btn} >
+                <a href="https://instagram.com/serhii_iliniuk" target="_blank" className={styles.Btn} >
                     <FontAwesomeIcon icon={faInstagram} size="2x" />
                 </a>
-                <a href="https://twitter.com/SYliniuc" className={styles.Btn} >
+                <a href="https://twitter.com/SYliniuc" target="_blank" className={styles.Btn} >
                     <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
-                <a href="https://t.me/Serhii_Iliniuk" className={styles.Btn} >
+                <a href="https://t.me/Serhii_Iliniuk" target="_blank" className={styles.Btn} >
                     <FontAwesomeIcon icon={faTelegram} size="2x" />
                 </a>
             </div>
