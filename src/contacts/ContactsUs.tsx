@@ -3,9 +3,7 @@ import styles from "./Contacts.module.scss"
 import emailjs from '@emailjs/browser';
 
 
-
 export const ContactsUs = () => {
-
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [text, setText] = useState("")
@@ -52,7 +50,6 @@ export const ContactsUs = () => {
                 setErrorMessage("SOMETHING WRONG WITH SERVER")
                 setFormStatus("Submit")
             });
-
     };
 
     return (

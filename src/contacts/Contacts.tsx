@@ -5,11 +5,8 @@ import { Fade } from "react-awesome-reveal";
 import {ContactUsFormik} from "./ContactUsFormik"
 // import { ContactsUs } from "./ContactsUs";
 
-type PropsType = {
 
-}
-
-export const Contacts: React.FC<PropsType> = (props) => {
+export const Contacts = () => {
     return (
         <div id="Contacts" className={styles.Contacts}>
             <TitleConstructor Title={"Contacts"} />

@@ -29,16 +29,13 @@ const validate = (values: { user_name: string; user_email: string; message: stri
 
 };
 
-
 export const ContactUsFormik = () => {
     const [errorMessage, setErrorMessage] = useState("")
     const [formStatus, setFormStatus] = useState("Submit")
 
-
     const changeFormStatusTimeOut = () => {
         setFormStatus("Submit")
     }
-
 
     const formik = useFormik({
         initialValues: {
@@ -67,8 +64,8 @@ export const ContactUsFormik = () => {
                 })
         },
     });
-    return (
 
+    return (
         <form className={styles.Form} onSubmit={formik.handleSubmit}>
             <div>{errorMessage}</div>
             <label htmlFor="user_name" />

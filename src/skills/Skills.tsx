@@ -12,15 +12,11 @@ import {  SkillBlockConstructor } from "../common/components/skillConstructor/Sk
 import { TitleConstructor } from "../common/components/titleConstructor/TitleConstructor";
 import { Fade } from "react-awesome-reveal";
 
-type PropsType = {
 
-}
-
-export const Skills: React.FC<PropsType> = (props) => {
+export const Skills = () => {
     return (
         <div id="Skills" className={styles.Skills}>
             <TitleConstructor Title={"Skills"} />
-
             <div className={styles.Container} >
                  <Fade direction="left">
                     <SkillBlockConstructor

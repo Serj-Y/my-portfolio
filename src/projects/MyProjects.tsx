@@ -5,13 +5,8 @@ import { ProjectConstructor } from "../common/components/projectConstructor/Proj
 import ReactLogo from "../common/assets/image/React.png";
 import JsLogo from "../common/assets/image/JavaScript.png";
 import { Fade } from "react-awesome-reveal";
-type PropsType = {
 
-}
-
-
-export const MyProjects: React.FC<PropsType> = (props) => {
-
+export const MyProjects = () => {
     const ReactImage = {
         backgroundImage: `url(${ReactLogo})`,
     }
