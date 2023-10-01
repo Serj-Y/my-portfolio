@@ -6,17 +6,15 @@
   @include flexColumCenter;
   min-height: fit-content;
 
-
   .Container {
     @include container;
     justify-content: center;
     width: 50%;
 
-
     .Btn {
       @extend .Btn;
-       width: 50px;
-       color: $textColor;
+      width: 50px;
+      color: $textColor;
     }
   }
 

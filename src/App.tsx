@@ -1,12 +1,11 @@
-import React from 'react';
-import { Header } from './header/Header';
-import { Main } from './main/Main';
-import { Skills } from './skills/Skills';
-import { MyProjects } from './projects/MyProjects';
-import { Footer } from './footer/Footer';
-import { Contacts } from './contacts/Contacts'
-import Styles from './App.module.scss'
-
+import React from "react";
+import { Header } from "./header/Header";
+import { Main } from "./main/Main";
+import { Skills } from "./skills/Skills";
+import { MyProjects } from "./projects/MyProjects";
+import { Footer } from "./footer/Footer";
+import { Contacts } from "./contacts/Contacts";
+import Styles from "./App.module.scss";
 
 const App = () => {
   return (
@@ -19,6 +18,6 @@ const App = () => {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
