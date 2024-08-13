@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.d2d501dd.css",
-    "main.js": "/my-portfolio/static/js/main.63a57ae6.js",
+    "main.js": "/my-portfolio/static/js/main.40138fbf.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/Todo.png": "/my-portfolio/static/media/Todo.b9b919d42b5f6afd239b.png",
     "static/media/Weather_App.png": "/my-portfolio/static/media/Weather_App.59caeced2b04bb0370cc.png",
     "static/media/Smart_PosTerminal.png": "/my-portfolio/static/media/Smart_PosTerminal.66cbe8db66a19918cf72.png",
+    "static/media/Weather&Todo_app.png": "/my-portfolio/static/media/Weather&Todo_app.cb63571513b921c6e086.png",
     "static/media/React.png": "/my-portfolio/static/media/React.44319306359c7112276d.png",
     "static/media/GitHubW.png": "/my-portfolio/static/media/GitHubW.987334e9f782cc505f25.png",
     "static/media/Redux.png": "/my-portfolio/static/media/Redux.b3b939c66aecf7d53967.png",
@@ -13,11 +15,11 @@
     "static/media/JavaScript.png": "/my-portfolio/static/media/JavaScript.266bd9fb2663dcc057b4.png",
     "index.html": "/my-portfolio/index.html",
     "main.d2d501dd.css.map": "/my-portfolio/static/css/main.d2d501dd.css.map",
-    "main.63a57ae6.js.map": "/my-portfolio/static/js/main.63a57ae6.js.map",
+    "main.40138fbf.js.map": "/my-portfolio/static/js/main.40138fbf.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2d501dd.css",
-    "static/js/main.63a57ae6.js"
+    "static/js/main.40138fbf.js"
   ]
 }
