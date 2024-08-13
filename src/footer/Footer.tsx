@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faInstagram,
+  faLinkedin,
   faTelegram,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
@@ -34,6 +35,11 @@ export const Footer = () => {
           PropBtnStyle={styles.Btn}
           Href="https://t.me/Serhii_Iliniuk"
           ExtraComponent={<FontAwesomeIcon icon={faTelegram} size="2x" />}
+        />
+        <Button
+          PropBtnStyle={styles.Btn}
+          Href="https://www.linkedin.com/in/sej-i"
+          ExtraComponent={<FontAwesomeIcon icon={faLinkedin} size="2x" />}
         />
       </div>
       <h6>© 2023 Serj_Y. All rights reserved.</h6>
